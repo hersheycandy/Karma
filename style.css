@@ -1,0 +1,229 @@
+body > footer {
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    height: 1565px;
+    left: 0px;
+}
+.top-navigation {
+    background-color: #fff;
+    left:0px;
+    top:0px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    text-align: center;
+}
+.top-navigation > .content {
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-font-smoothing:antialiased;
+    text-align: center;
+}
+.top-navigation .logo {
+    width: 26px;
+    height: 70px;
+ }
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    margin:27px;
+    width: 507px;
+    -webkit-font-smoothing:antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+    font-family: 'roboto', sans-serif;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('Images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+    overflow: auto;
+}
+.introduction .content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 920px;
+    height: 173px;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'roboto',sans-serif;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    margin-bottom: 0px;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+    margin-bottom: 0px;
+}
+.introduction .buttons {
+    color: #ddd;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    width: 155px;
+    height: 53px;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+ .cases {
+    background-color: #fff;
+    overflow: hidden;
+    height: 445px;
+    padding-bottom: 80px;
+    list-style: none;
+    font-family: "roboto",sans-serif;
+    text-align: center;
+}
+.cases .content {
+    color: #1d1e21;
+    text-align: center;
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    height: 50px;
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: inline;
+    list-style: none;
+}
+.cases .devices > li {
+    width: 307px;
+    height: 225px;
+    text-align: center;
+    display: inline-block;
+}  
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.cases .caption {
+    width: 306px;
+    height: 25px;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 150px
+    text-align: center;
+}
+.social .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-weight: 100;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 134px;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons {
+    padding: 0px;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 38px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid #eaebec;
+    padding-bottom: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .i > .fa {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+@media all and not print{
+}
